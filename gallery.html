@@ -1,0 +1,32 @@
+<head> 
+    <title>Nest Gallery</title>
+      <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width,
+                   initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" type="text/css" 
+          href="Style.css">
+    <div>
+        <link rel="stylesheet" href="Style.css">
+   </div>
+   <body>
+
+    <div class="navbar" id="myNavbar">
+        <a href="#">Home</a>
+        <a href="#">gallery</a>
+
+        <a href="javascript:void(0);"
+           class="icon"
+           onclick="toggleMenu()">  
+            &#9776;
+        </a>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            let navbar = document.getElementById("myNavbar");
+            navbar.className = navbar.className === "navbar" ?
+                               "navbar responsive" : "navbar";
+        }
+    </script>
