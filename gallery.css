@@ -65,3 +65,6 @@ body {
     display: inline;
     
  }
+ img {
+    border: 1px solid #000000
+ }
