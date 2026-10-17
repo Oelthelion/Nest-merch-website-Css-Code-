@@ -61,10 +61,10 @@ body {
  }   
  map {
     display: inline;
+    top:auto
     
  }
  img {
     border: 1px solid #000000
-    
  }
  
